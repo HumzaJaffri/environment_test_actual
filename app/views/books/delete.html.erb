@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Are you sure you want to delete book?</h1>
+
+<%= link_to 'YES', @book, method: :delete, data: { confirm: 'Are you sure?' } %>
+
+<br>
+
+<%= link_to 'Back', books_path %>
